@@ -8,6 +8,8 @@ import java.util.List;
 
 import javax.imageio.ImageIO;
 
+/* This class use the multithread implementation for rebuild an input image, splitting
+the original image in smaller section each for one thread */
 public class Main {
     public static final String SOURCE_FILE = "C:\\Users\\user\\Documents\\myRepo\\JavaOpt\\multithread\\src\\main\\resources\\many-flowers.jpg";
     public static final String DESTINATION_FILE = "C:\\Users\\user\\Documents\\myRepo\\JavaOpt\\multithread\\src\\main\\resources\\new-flowers.jpg";

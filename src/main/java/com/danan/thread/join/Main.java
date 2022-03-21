@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/* Thi Example handles the situation  where some big elaboration is required but we won't wait forevere.
+Deamon set true but thread.join(TIME_MAX) */
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         List<Long> inputNumbers = Arrays.asList(10000000000000000L, 345L, 35435L, 2324L, 4656L, 23L, 5556L);

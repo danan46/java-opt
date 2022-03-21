@@ -1,5 +1,7 @@
 package com.danan.sync;
 
+/* This class handle MAX_ITER where run 1 increment Thread and 1 decrement Thread with 
+safe operation (Synchronized) in the ++ an -- method */
 public class Main {
 
     protected static final int MAX_ITER = 100000;

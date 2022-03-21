@@ -2,6 +2,7 @@ package com.danan.thread.example2.interrupt;
 
 import java.math.BigInteger;
 
+/* Thie example set a Thread as a Daemon in order to continue the elaboration even if the main is finished */
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(new LongComputationTask(new BigInteger("20000"), new BigInteger("1000000000000")));

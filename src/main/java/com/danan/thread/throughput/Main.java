@@ -16,6 +16,7 @@ import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
 
+/* This example handles the Throughput with the Executor Object that handle the multithread */
 public class Main {
     private static final String INPUT_FILE = "C:\\Users\\user\\Documents\\myRepo\\JavaOpt\\multithread\\src\\main\\resources\\war_and_peace.txt";
     private static final int NUMBER_OF_THREADS = 1;

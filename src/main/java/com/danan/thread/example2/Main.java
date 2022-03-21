@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/* Basic example with 3 different thread that run togheter */
 public class Main {
     public static final int MAX_PASSWORD = 9999;
     public static void main(String[] args) {

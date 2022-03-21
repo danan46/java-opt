@@ -7,6 +7,9 @@ import java.util.Random;
 import java.util.TreeMap;
 import java.util.concurrent.locks.ReentrantLock;
 
+/* This example handles the situation with multi threads but with write and read operations; it uses 2 different lock
+from the Reentrant Object (reader and writer lock); in this way once the reader lock the resource no one can operate but
+if the reader lock is active all the readers can access the resource locked */
 public class Main2 {
     public static final int HIGHEST_PRICE = 1000;
 

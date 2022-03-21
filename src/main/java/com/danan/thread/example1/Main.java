@@ -1,5 +1,6 @@
 package com.danan.thread.example1;
 
+/* Basic Thread example implementation with some properties */
 public class Main {
     public static void main( String[] args ) throws InterruptedException {
         Thread thread = new Thread(new Runnable() {

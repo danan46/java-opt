@@ -2,6 +2,7 @@ package com.danan.critical;
 
 import java.util.Random;
 
+/* This example handle a concurrent update of a metrics by 2 different blogic thread with Synchronized */
 public class Main {
     public static void main(String[] args) {
         Metrics metrics = new Metrics();
